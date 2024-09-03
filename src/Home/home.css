@@ -179,3 +179,63 @@ img:hover{
 box-shadow: 0px 0px 30px 1px;
 transition: 0.5s all ease-in-out;
 }
+.hremail{
+  width: 100%;
+  color: rgb(135, 135, 135);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.hrcall{
+  width: 100%;
+  color: rgb(135, 135, 135);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.hrcontact{
+  width: 100%;
+  color: rgb(135, 135, 135);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.callEmail{
+display: flex;
+gap: 100px;
+}
+.footer{
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  gap: 100px;
+  padding-top: 100px;
+  line-height: 1px;
+}
+.sre{
+  
+    /* padding-left: 10%; */
+    font-size: x-large;
+    font-weight: 600;
+    
+}
+.key{
+  font-weight: 700;
+}
+.value{
+  color: rgb(0, 0, 96);
+  font-weight: 400;
+}
+svg{
+  color: rgb(0, 0, 96);
+}
+.svg{
+  display: flex;
+  gap: 50px;
+}
+.lasthr{
+  width: 80% ;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.RIGHTS{
+  text-align: center;
+}

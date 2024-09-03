@@ -5,6 +5,7 @@ import HomeSecond from './Home/HomeSecond'
 import HomeThree from './Home/HomeThree'
 import HomeFour from './Home/HomeFour'
 import Location from './Home/Location'
+import Footer from './Home/Footer'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <HomeThree/>
       <HomeFour/>
       <Location/>
+      <Footer/>
     </div>
   )
 }
