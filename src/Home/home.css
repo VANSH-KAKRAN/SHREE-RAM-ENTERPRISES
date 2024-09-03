@@ -1,0 +1,88 @@
+body{
+    background-color:  #ffffff;
+}
+*{
+    letter-spacing: 1px;
+}
+.carousel-item {
+
+    height: 590px;
+}
+.section-wall{
+    padding-top: 100px;
+      max-width: 80%;
+      margin: auto;
+  }
+  .section-wall2{
+    padding-top: 250px;
+      max-width: 80%;
+      margin: auto;
+  }
+  .section-wall-left2 {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 15px;
+    margin-left: 5%;
+  }
+  .section-wall-left{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 15px;
+    margin-right: 5%;
+  
+  
+  }
+  .sec1-text1{
+    color: blue;
+    font-size: medium;
+    font-weight: 500;
+  }
+  .sec1-text2{
+    font-size: xx-large;
+      font-weight: 600;
+  }
+  .sec1-text3{
+    color: #acacac;
+  }
+  button{
+   
+    width: 200px;
+    height: 50px;
+    background-color:rgb(6, 0, 71);
+    color: white;
+    border: 0;
+    border-radius: 3px;
+  }
+  .section-wall-right{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section-wall-right div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 45px;
+    border: 1px solid #ebebeb;
+    gap: 10px;
+    background: white;
+   
+  }
+  .section-wall-right div img{
+    width: 40px;
+  }
+ .section-wall-right-p1{
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+ }
+ .section-wall-right-p2{
+color: blue;
+font-size: small;
+ }
