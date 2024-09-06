@@ -13,7 +13,7 @@ import livingroom from "../images/livingroom.png";
 function HomeSecond() {
   return (
     <div>
-      <section className="section-wall2">
+      {/* <section className="section-wall2">
         <div className="section-wall-left2">
           <p className="sec1-text1">
             SHREE RAM ENTERPRISES BRINGS YOU PREMIUM TILES
@@ -49,7 +49,7 @@ function HomeSecond() {
             <p className="section-wall-right-p2">Explore Now</p>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

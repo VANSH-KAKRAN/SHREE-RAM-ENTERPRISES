@@ -1,0 +1,20 @@
+.ft-main-back{
+    background-image: url(/src/images/tilesmainbackground.jpg);
+    color: black;
+    margin-top: 56px;
+    padding: 150px;
+}
+.ft-main-back :nth-child(1){
+    font-size: x-large;
+    font-weight: 600;
+    color: white;
+}
+.ft-main-back :nth-child(2){
+    color: white;
+}
+.doublecharge{
+    text-align: center;
+    font-size: x-large;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}

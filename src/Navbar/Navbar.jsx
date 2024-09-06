@@ -1,14 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "./navbar.css";
 import logo from "../images/srelogo.png";
+import { Link } from "react-router-dom";
+import Home from "../Home/Home";
+
 function Navbar() {
+
   return (
     <div>
       <nav id="navigation" className="navbar fixed-top navbar-expand-lg">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="#">
             SHREE RAM ENTERPRISES
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -23,30 +27,35 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <Link 
+                  className="nav-link active"
+                  aria-current="page"
+                  to="/home"
+                >
+
                   HOME
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#about">
+                <Link className="nav-link" to="/walltiles">
                   WALL TILES
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#project">
-                  FLOAR TILES 
-                </a>
+                <Link className="nav-link" to="/floartiles">
+                  FLOAR TILES
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#educations">
-                  ABOUT US 
-                </a>
+                <Link className="nav-link" to="/aboutus">
+                  ABOUT US
+                </Link>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#contact">
+              {/* <li className="nav-item">
+                <Link className="nav-link" to="/contactus">
                   CONTACT US
-                </a>
-              </li>
+                </Link>
+              </li> */}
             </ul>
           </div>
         </div>

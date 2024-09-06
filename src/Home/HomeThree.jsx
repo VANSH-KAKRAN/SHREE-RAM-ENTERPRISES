@@ -10,7 +10,7 @@ import third6 from "../images/third6.jpg";
 function HomeThree() {
   return (
     <div style={{background:"#e7e7e7"}}>
-      <div className="carousels-main">
+      {/* <div className="carousels-main">
         <p className="carousels-text1">OUR MESMERIZING RANGE OF DESIGNER TILES</p>
         <p className="carousels-text2">Trending Products</p>
         <div className="carousels">
@@ -64,7 +64,7 @@ function HomeThree() {
           </div>
 
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

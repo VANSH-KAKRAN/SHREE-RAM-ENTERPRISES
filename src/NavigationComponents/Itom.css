@@ -1,0 +1,73 @@
+.leftimg {
+  float: left;
+  width: 50%;
+  height: 435px;
+  object-fit: cover;
+  display: flex;
+}
+.tileimg {
+  /* max-width:  var(--maxwidthheight);
+max-height:  var(--maxwidthheight);
+min-height: 150px;
+min-width: 150px; */
+  box-shadow:8px 8px 10px 1px;
+  
+  width: 200px;
+  height: 200px;
+}
+.double {
+  max-width: 90%;
+  margin: auto;
+
+  display: flex;
+  gap: 1.5%;
+}
+.double-info {
+  width: 210px;
+}
+
+.size {
+  padding-left: 55px;
+  font-weight: 500;
+}
+.feature-h {
+  margin-left: 55px;
+  letter-spacing: 0;
+  font-size: larger;
+  font-weight: 700;
+}
+.features {
+  margin-left: 55px;
+  letter-spacing: 0;
+}
+.left {
+  /* letter-spacing: 0px !important; */
+  display: flex;
+}
+.vr {
+  border-left: 2px solid #f6c74c;
+  height: 100%;
+  display: inline-block;
+  align-self: stretch;
+  width: var(--bs-border-width);
+  /* min-height: 1em; */
+  background-color: currentcolor;
+  /* opacity: .25; */
+  position: absolute;
+  height: 50px;
+  border-radius: 10px;
+  opacity: 1;
+  margin-left: 13px;
+}
+hr {
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  max-width: 90%;
+  margin: auto;
+}
+:root {
+  --maxwidthheight: 300px;
+}
+.leftimg:hover{
+    box-shadow:none;
+}
