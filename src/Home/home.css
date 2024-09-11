@@ -5,7 +5,7 @@ body {
   letter-spacing: 1px;
 }
 .carousel-item {
-  height: 590px;
+  /* height: 590px; */
 }
 .section-wall {
   padding-top: 100px;
@@ -175,9 +175,11 @@ button {
   padding-bottom: 40px;
 }
 
-img:hover{
+.carousels-main img:hover{
 box-shadow: 0px 0px 30px 1px;
-transition: 0.5s all ease-in-out;
+transition: 0.4s all ease-in-out;
+width:110% ;
+z-index: 1;
 }
 .hremail{
   width: 100%;
@@ -200,6 +202,7 @@ transition: 0.5s all ease-in-out;
 .callEmail{
 display: flex;
 gap: 100px;
+flex-direction: column;
 }
 .footer{
   max-width: 80%;
@@ -241,4 +244,18 @@ svg{
   margin: 0;
   padding-bottom: 50px;
   padding-top: 100px;
+}
+.carousels-main img{
+  transition: box-shadow 0.5s ;
+}
+.onclick p{
+  transition: color 0.5s;
+}
+.onclick p:hover{
+  cursor: pointer;
+  color: red;
+}
+.carousel-button{
+  position: absolute;
+  top: 23vw;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import "../NavigationComponents/NavigationComponent.css";
 import black from "../images/floar/double/black.png";
-import all_data from './data'
+import all_data from "./data";
 import Item from "./Item";
 import Footer from "../Home/Footer";
 
@@ -23,11 +23,9 @@ function FloarTiles() {
             homes, hotels & workspaces.
           </p>
         </div>
-        <p className="doublecharge">
-          Multi Charge
-        </p>
-        </div>
-        {/* <div className="double">
+        <p className="doublecharge">Multi Charge</p>
+      </div>
+      {/* <div className="double">
           <img src={item.back} alt="" />
           <div className="left">
           <img src={item.tileimg} alt="" />
@@ -43,14 +41,26 @@ function FloarTiles() {
             </div>
             </div>
             </div> */}
-            <div className="testing">
-            {all_data.map((item,i)=>{
-            return <Item name={item.name} back={item.back} tileimg={item.tileimg} data1={item.data1} feature1={item.feature1} feature2={item.feature2} feature3={item.feature3} feature4={item.feature4} feature5={item.feature5} />
-            })}
-            </div>
-            <Footer/>
+      <div className="testing">
+        {all_data.map((item, i) => {
+          return (
+            <Item
+              key={i}
+              name={item.name}
+              back={item.back}
+              tileimg={item.tileimg}
+              data1={item.data1}
+              feature1={item.feature1}
+              feature2={item.feature2}
+              feature3={item.feature3}
+              feature4={item.feature4}
+              feature5={item.feature5}
+            />
+          );
+        })}
+      </div>
+      <Footer />
     </div>
-  
   );
 }
 

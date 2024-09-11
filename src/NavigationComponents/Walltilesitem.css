@@ -1,0 +1,20 @@
+.itoms img{
+    width: 300px;
+  
+
+}
+.wall{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.itoms{
+    width:fit-content ;
+    border: 5px solid black;
+}
+.itoms p{
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    color: white;
+}
