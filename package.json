@@ -1,7 +1,6 @@
 {
-  "homepage": "https://vansh-kakran.github.io/SRE",
   "name": "sre",
-  "private": true,
+  "private": "true",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
