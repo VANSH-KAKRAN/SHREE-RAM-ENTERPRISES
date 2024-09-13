@@ -48,8 +48,6 @@ function App() {
       </Routes>
       </HashRouter>
       
-       {/* <Navbar/>
-       <RouterProvider router={router}/> */}
     </div>
   );
 }
