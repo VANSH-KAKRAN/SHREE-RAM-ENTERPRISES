@@ -5,7 +5,9 @@ import { Link } from "react-router-dom";
 import Home from "../Home/Home";
 
 function Navbar() {
-
+  function TopFunc () {
+    window.scrollTo(0, 0);
+  }
   return (
     <div>
       <nav id="navigation" className="navbar fixed-top navbar-expand-lg">
@@ -69,7 +71,7 @@ function Navbar() {
       <div className="offcanvas-body">
         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
       
-              <li className="nav-item"  data-bs-dismiss="offcanvas" aria-label="Close">
+              <li className="nav-item" onClick={TopFunc} data-bs-dismiss="offcanvas" aria-label="Close">
                 <Link 
                   className="nav-link active"
                   aria-current="page"
@@ -79,17 +81,17 @@ function Navbar() {
                   HOME
                 </Link>
               </li>
-              <li className="nav-item"  data-bs-dismiss="offcanvas" aria-label="Close">
+              <li className="nav-item" onClick={TopFunc} data-bs-dismiss="offcanvas" aria-label="Close">
                 <Link className="nav-link" to="/walltiles">
                   WALL TILES
                 </Link>
               </li>
-              <li className="nav-item"  data-bs-dismiss="offcanvas" aria-label="Close">
+              <li className="nav-item" onClick={TopFunc} data-bs-dismiss="offcanvas" aria-label="Close">
                 <Link className="nav-link" to="/floartiles" >
                   FLOAR TILES
                 </Link>
               </li>
-              <li className="nav-item"  data-bs-dismiss="offcanvas" aria-label="Close">
+              <li className="nav-item" onClick={TopFunc} data-bs-dismiss="offcanvas" aria-label="Close">
                 <Link className="nav-link" to="/aboutus" >
                   ABOUT US
                 </Link>

@@ -33,6 +33,9 @@ import { Link } from "react-router-dom";
 
 
 function Home() {
+  function TopFunc () {
+    window.scrollTo(0, 0);
+  }
   function function1() {
     var image = carving;
     var imageHtml =
@@ -191,7 +194,7 @@ function Home() {
             technology making them strong, durable & easy to maintain.
           </p>
           <img src={small3} alt="" />
-          <Link to="/walltiles">
+          <Link onClick={TopFunc} to="/walltiles">
           <button> EXPLORE ALL</button>
           </Link>
         </div>
@@ -232,7 +235,7 @@ function Home() {
           </p>
           <img src={small3} alt="" />
 
-          <Link to="/floartiles">
+          <Link onClick={TopFunc} to="/floartiles">
           <button> EXPLORE ALL</button>
           </Link>
 
