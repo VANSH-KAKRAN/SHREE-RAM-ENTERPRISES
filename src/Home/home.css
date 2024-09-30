@@ -219,6 +219,12 @@ flex-direction: column;
     font-weight: 600;
     
 }
+@media screen and (max-width: 400px) {
+  .sre{
+    font-size: 20px;
+  }
+}
+
 .key{
   font-weight: 700;
 }
