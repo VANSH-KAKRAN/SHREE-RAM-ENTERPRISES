@@ -1,11 +1,12 @@
 .ft-main-back {
-    background-image: url(/SRE/src/images/tilesmainbackground.jpg);
+    /* background-image: url(/SRE/src/images/tilesmainbackground.jpg); */
+    background-image: url(../images/tilesmainbackground.jpg);
     color: black;
     margin-top: 56px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 110px;
-    padding-bottom: 50px;
+    padding-bottom: 110px;
 }
 .ft-main-back :nth-child(1){
     font-size: x-large;
