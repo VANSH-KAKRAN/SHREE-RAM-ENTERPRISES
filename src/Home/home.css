@@ -202,7 +202,7 @@ z-index: 1;
 .callEmail{
 display: flex;
 gap: 100px;
-flex-direction: column;
+flex-wrap: wrap;
 }
 .footer{
   max-width: 80%;
