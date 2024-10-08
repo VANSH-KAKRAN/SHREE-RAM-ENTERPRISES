@@ -1,8 +1,12 @@
-.ft-main-back{
-    background-image: url(/src/images/tilesmainbackground.jpg);
+.ft-main-back {
+    /* background-image: url(/SRE/src/images/tilesmainbackground.jpg); */
+    background-image: url(../images/tilesmainbackground.jpg);
     color: black;
     margin-top: 56px;
-    padding: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 110px;
+    padding-bottom: 110px;
 }
 .ft-main-back :nth-child(1){
     font-size: x-large;
@@ -33,4 +37,26 @@
     max-width: 90%;
     margin: auto;
     padding-top: 100px;
+}
+@media only screen and (max-width:550px){
+    .left {
+        padding-top: 100px;
+        /* letter-spacing: 0px !important; */
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .double {
+        max-width: 90%;
+        margin: auto;
+        display:block !important;
+        gap: 7.5%;
+    }
+    .leftimg {
+        float:none !important;
+        width: 100% !important;
+        height: 435px;
+        object-fit: cover;
+        /* display: flex; */
+    }
 }

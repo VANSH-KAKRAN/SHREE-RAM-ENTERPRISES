@@ -41,14 +41,14 @@ body {
   .navbar-toggler-icon {
    
     display: inline-block;
-    width: 1.6em;
-    height: 1.6em;
+    width: 2em;
+    height: 2em;
     vertical-align: middle;
     background-image: var(--bs-navbar-toggler-icon-bg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 75%;
-    background-color: white;
+    background-color: #282828;
     border-radius: 5px;
 }
 .navbar-collapse {
@@ -59,4 +59,15 @@ body {
 .nav-link{
   font-size: small;
  
+}
+.navbar-toggler {
+  width: 38px;
+  /* padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x); */
+  font-size: var(--bs-navbar-toggler-font-size);
+  line-height: 1;
+  color: var(--bs-navbar-color);
+  background-color: transparent;
+  /* border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color); */
+  border-radius: var(--bs-navbar-toggler-border-radius);
+  transition: var(--bs-navbar-toggler-transition);
 }

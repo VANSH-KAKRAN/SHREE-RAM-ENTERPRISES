@@ -202,7 +202,7 @@ z-index: 1;
 .callEmail{
 display: flex;
 gap: 100px;
-flex-direction: column;
+flex-wrap: wrap;
 }
 .footer{
   max-width: 80%;
@@ -219,6 +219,12 @@ flex-direction: column;
     font-weight: 600;
     
 }
+@media screen and (max-width: 400px) {
+  .sre{
+    font-size: 20px;
+  }
+}
+
 .key{
   font-weight: 700;
 }
@@ -258,4 +264,153 @@ svg{
 .carousel-button{
   position: absolute;
   top: 23vw;
+}
+@media screen and (max-width: 950px) {
+  /* flex-direction: column; */
+  /* .callEmail {
+    display: flex;
+    gap: 100px;
+} */
+  .section-wall-left {
+    float: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+    margin-right: 5%;
+}
+.section-wall-left2 {
+  float: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 15px;
+  margin-left: 5%;
+}
+a {
+  text-align: center;
+  color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+  text-decoration: underline;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#big-text {
+  width: 250%;
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  color: rgb(106, 106, 106);
+  margin-top: 10px;
+}
+.carousels {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.onclick {
+  /* padding-top: 50px; */
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+}
+@media screen and (max-width: 600px) {
+  .section-wall-right {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.carousels {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.carousels-itom {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.footer {
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  gap: 100px;
+  padding-top: 100px;
+  line-height: 1px;
+  flex-direction: column;
+}
+.aboutTiles {
+  margin-top: 80px;
+  max-width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+.aboutTiles-left {
+
+  float:none;
+ 
+}
+.aboutTiles-left {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  max-width: 100%;
+  margin-right: 10%;
+}
+#big-text {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  color: rgb(106, 106, 106);
+  margin-top: 10px;
+}
+.aboutTiles-left {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  max-width: 100%;
+  margin-right: 0%;
+}
+.aboutTiles {
+  margin-top: 80px;
+  max-width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  text-align: center;
+}
+#tilesimages img {
+  width: 80vw;
+  height: 50vw;
+}
+.feature-h {
+  margin-left: 0px !important;
+  letter-spacing: 0;
+  font-size: larger;
+  font-weight: 700;
+}
+.size {
+  padding-left: 0px !important;
+  font-weight: 500;
+}
+.left {
+  /* letter-spacing: 0px !important; */
+  display: flex;
+  flex-direction: column;
+}
+.features {
+  margin-left: 0px !important;
+  letter-spacing: 0;
+}
+.double-info {
+  margin-top: 30px;
+  width: 210px;
+  letter-spacing: 0 !important;
+}
+}
+#carouselExampleAutoplaying{
+  margin-top: 55px;
+
 }

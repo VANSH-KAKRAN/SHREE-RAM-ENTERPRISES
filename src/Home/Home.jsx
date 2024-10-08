@@ -29,9 +29,13 @@ import third3 from "../images/thrid3.jpg";
 import third4 from "../images/third4.jpg";
 import third5 from "../images/third5.jpg";
 import third6 from "../images/third6.jpg";
+import { Link } from "react-router-dom";
 
 
 function Home() {
+  function TopFunc () {
+    window.scrollTo(0, 0);
+  }
   function function1() {
     var image = carving;
     var imageHtml =
@@ -190,28 +194,30 @@ function Home() {
             technology making them strong, durable & easy to maintain.
           </p>
           <img src={small3} alt="" />
-          <button>EXPLORE ALL</button>
+          <Link onClick={TopFunc} to="/walltiles">
+          <button> EXPLORE ALL</button>
+          </Link>
         </div>
         <div className="section-wall-right">
           <div>
             <img src={bathroom} alt="" />
             <p className="section-wall-right-p1">Bathroom Wall Tiles</p>
-            <p  className="section-wall-right-p2">Explore Now</p>
+            <p  className="section-wall-right-p2"></p>
           </div>
           <div>
             <img src={house} alt="" />
             <p className="section-wall-right-p1">Front Wall Tiles</p>
-            <p className="section-wall-right-p2">Explore Now</p>
+            <p className="section-wall-right-p2"></p>
           </div>
           <div>
             <img src={kitchen} alt="" />
             <p className="section-wall-right-p1">Kitchen Wall Tiles</p>
-            <p className="section-wall-right-p2">Explore Now</p>
+            <p className="section-wall-right-p2"></p>
           </div>
           <div>
             <img src={livingroom} alt="" />
             <p className="section-wall-right-p1">Livingroom Wall Tiles</p>
-            <p className="section-wall-right-p2">Explore Now</p>
+            <p className="section-wall-right-p2"></p>
           </div>
         </div>
       </section>
@@ -228,28 +234,32 @@ function Home() {
             technology making them strong, durable & easy to maintain.
           </p>
           <img src={small3} alt="" />
-          <button>EXPLORE ALL</button>
+
+          <Link onClick={TopFunc} to="/floartiles">
+          <button> EXPLORE ALL</button>
+          </Link>
+
         </div>
         <div className="section-wall-right">
           <div>
             <img src={bathroom} alt="" />
             <p className="section-wall-right-p1">Bathroom Floar Tiles</p>
-            <p  className="section-wall-right-p2">Explore Now</p>
+            <p  className="section-wall-right-p2"></p>
           </div>
           <div>
             <img src={house} alt="" />
             <p className="section-wall-right-p1">Front Floar Tiles</p>
-            <p className="section-wall-right-p2">Explore Now</p>
+            <p className="section-wall-right-p2"></p>
           </div>
           <div>
             <img src={kitchen} alt="" />
             <p className="section-wall-right-p1">Kitchen Floar Tiles</p>
-            <p className="section-wall-right-p2">Explore Now</p>
+            <p className="section-wall-right-p2"></p>
           </div>
           <div>
             <img src={livingroom} alt="" />
             <p className="section-wall-right-p1">Livingroom Floar Tiles</p>
-            <p className="section-wall-right-p2">Explore Now</p>
+            <p className="section-wall-right-p2"></p>
           </div>
         </div>
       </section>
