@@ -13,7 +13,11 @@ body {
   margin: auto;
 }
 .section-wall2 {
-  padding-top: 75px;
+  /* padding-top: 75px;
+  max-width: 80%;
+  margin: auto; */
+  padding-top: 15vw;
+  padding-bottom: 10vw;
   max-width: 80%;
   margin: auto;
 }
